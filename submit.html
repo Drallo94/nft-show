@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+
+<html lang="cs">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#fff">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="robots" content="index,follow">
+	<title>NFT Roster - Submit yout upcoming project</title>
+	<meta name="description" content="Gulp example">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Submit yout upcoming project">
+	<meta property="og:site_name" content="Submit yout upcoming project">
+	<meta property="og:url" content="https://www.url.com">
+	<meta property="og:description" content="Gulp example">
+	<meta property="og:image" content="https://www.url.com/config/og/fb-image_1200x630.jpg">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="stylesheet" href="css/style.min.css" type="text/css">
+	<link rel="stylesheet" href="css/print.min.css" media="print">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="manifest" href="config/manifest/manifest.json">
+
+		<script type="text/javascript">
+		var ajax = new XMLHttpRequest();
+		ajax.open("GET", "svgs/svgs.svg", true);
+		ajax.send();
+		ajax.onload = function(e) {
+			var div = document.createElement("div");
+			div.innerHTML = ajax.responseText;
+			document.body.insertBefore(div, document.body.childNodes[0]);
+		}
+	 </script>
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="site">
+		
+
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+			<div class="header__box">
+				<div class="header__socials">
+					<a href="#" title="">
+						<svg class="icon icon--twitter">
+	<use xlink:href="#icon--twitter"></use>
+</svg>
+
+					</a>
+					<a href="#" title="">
+						<svg class="icon icon--instagram">
+	<use xlink:href="#icon--instagram"></use>
+</svg>
+
+					</a>
+					<a href="#" title="">
+						<svg class="icon icon--discord">
+	<use xlink:href="#icon--discord"></use>
+</svg>
+
+					</a>
+				</div>
+				<a class="header__link header__link--special" href="mailto:info@nftroster.io" title="">info@nftroster.io</a>
+			</div>
+			<div class="header__box">
+				<a class="header__link" href="#" title="">Advertise</a>
+				<a class="header__link" href="#" title="">About us</a>
+			</div>
+		</div>
+	</div>
+	<div class="header__bottom">
+		<div class="container">
+			<div class="header__left">
+				<a class="header__logo" href="index.html" title="">
+					<svg class="icon icon--logo">
+	<use xlink:href="#icon--logo"></use>
+</svg>
+
+				</a>
+				<ul>
+					<li class="is-active">
+						<a href="#" title="">Home</a>
+					</li>
+					<li class="disabled">
+						<a class="is-disabled" href="#" title="">All collections</a>
+					</li>
+					<li>
+						<a href="#" title="">Upcoming</a>
+					</li>
+					<li>
+						<a href="#" title="">Nft magazine</a>
+					</li>
+					<li>
+						<a href="#" title="">Get in touch</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="btn btn header__btn">
+	<span>List your project</span>
+
+	
+
+	
+</a>
+
+			<button type="button" class="togglenav__button js-nav">
+				<div class="togglenav__button-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+		</div>
+	</div>
+</header>
+
+
+<div class="form">
+	<div class="container">
+		<p class="title form__title"><span>SUBMIT</span> YOUR UPCOMING PROJECT:</p>
+		<form action="">
+			<div class="form__section">
+				<div class="form__item">
+					<label for="">Project’s Name:</label>
+					<input type="text" id="" name="" placeholder="Name of your project">
+				</div>
+				<div class="form__item">
+					<label for="">Email</label>
+					<input type="email" id="" name="" placeholder="Your Email">
+				</div>
+				<div class="form__item">
+					<label for="">Project’s Cover Image (.jpeg / .png / .gif) up to 1mb</label>
+					<div class="form__dropzone"></div>
+				</div>
+				<div class="form__item">
+					<label for="">Project’s Description (Content)<span>Please provide a detailed description of your proect (100+ words)</span></label>
+					<textarea id="" name="" placeholder="Project’s description"></textarea>
+				</div>
+			</div>
+			<div class="form__section">
+				<div class="form__item">
+					<label for="blockchain">Blockchain</label>
+					<select name="blockchain" id="blockchain" class="select select--form">
+					  <option value="Date">ETH</option>
+					  <option value="Something">BTC</option>
+					</select>
+				</div>
+				<div class="form__item form__item--half-label">
+					<label for="">Pre-Sale start Date & Time - (in UTC only) </label>
+					<input type="date" id="" name="" placeholder="DD-MM-YYYY" class="form__date">
+					<input type="time" id="" name="" placeholder="HH-MM">
+				</div>
+				<div class="form__item form__item--half-label">
+					<label for="">Public Sale start Date & Time – (in UTC only)</label>
+					<input type="date" id="" name="" placeholder="DD-MM-YYYY">
+					<input type="time" id="" name="" placeholder="HH-MM">
+				</div>
+				<div class="form__item">
+					<label for="">Total Supply:</label>
+					<input type="number" id="" name="" placeholder="Enter number">
+				</div>
+				<div class="form__item form__item--half">
+					<label for="">Pre-Sale mint price</label>
+					<input type="number" id="" name="" placeholder="Enter pre-sale mint price">
+				</div>
+				<div class="form__item form__item--half">
+					<label for="">Public Sale mint price</label>
+					<input type="number" id="" name="" placeholder="Enter public-sale mint price">
+				</div>
+				<div class="form__item">
+					<label class="checkbox checkbox--form">
+	<input type="checkbox" name="checkbox">
+	<span class="checkbox__checkmark"></span>
+	<span class="checkbox__text">Don’t know Launch date? </span>
+</label>
+				</div>
+			</div>
+			<div class="form__section">
+				<div class="form__item">
+					<label for="">Project’s Official Website</label>
+					<input type="text" id="" name="">
+				</div>
+				<div class="form__item">
+					<label for="">Project’s Official Twitter</label>
+					<input type="text" id="" name="">
+				</div>
+				<div class="form__item">
+					<label for="">Project’s Official Discord Invite Link<span>Make sure the invite link will not expire!</span></label>
+					<input type="text" id="" name="">
+				</div>
+				<div class="form__item">
+					<label for="">Project’s Official Instagram </label>
+					<input type="text" id="" name="">
+				</div>
+				<div class="form__item">
+					<label for="">OpenSea Link (if available)</label>
+					<input type="text" id="" name="" placeholder="https://opensea.io/collection/yournftproject">
+				</div>
+				<div class="form__item">
+					<label for="">Project’s minting contract address (if available)</label>
+					<input type="text" id="" name="">
+				</div>
+				<div class="form__item">
+					<label class="checkbox checkbox--form">
+	<input type="checkbox" name="checkbox">
+	<span class="checkbox__checkmark"></span>
+	<span class="checkbox__text">Are you interested in advertising your upcoming project on our platform?</span>
+</label>
+				</div>
+				<div class="form__item">
+					<label class="checkbox checkbox--form">
+	<input type="checkbox" name="checkbox">
+	<span class="checkbox__checkmark"></span>
+	<span class="checkbox__text">I have read and agreed to the terms of use</span>
+</label>
+				</div>
+				<div class="center">
+					<input type="submit" value="Submit your project!" class="btn btn--large">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="banner">
+		
+
+<img src="images/pc1.png" srcset="images/pc1@2x.png 2x" alt="" class="banner__pc">
+		
+
+<img src="images/mobile1.png" srcset="images/mobile1@2x.png 2x" alt="" class="banner__mobile">
+		<p class="title banner__title">Advertise your project with NFT Roster!</p>
+		<p class="banner__text">LET’S MAKE YOUR NFT THE NEXT <strong>BLUE-CHIP!</strong><svg class="icon icon--tick-around">
+	<use xlink:href="#icon--tick-around"></use>
+</svg>
+</p>
+		<a href="#" class="btn btn">
+	<span>DISCOVER MORE</span>
+
+	
+
+	
+</a>
+	</div>
+</div>
+
+
+<div class="separator separator--simple">
+	<div class="container">
+		<div class="separator__line"></div>
+		
+		<p class="separator__text"></p>
+		
+	</div>
+</div>
+
+
+<div class="testimonials">
+	<div class="container container--relative container--small">
+		<p class="title testimonials__title">TESTIMONIALS FROM OTHER PROJECTS</p>
+		<div class="testimonials__list" id="testimonials">
+	        <div class="splide__track">
+	            <div class="splide__list">
+	                <div class="splide__slide">
+						<div class="testimonials__item">
+							
+
+<img src="images/avatar1.png" srcset="images/avatar1@2x.png 2x" alt="" class="testimonials__img">
+							<p class="testimonials__name">MIMON</p>
+							<p class="testimonials__text">The way your super supportive team listens to your clients , also prioritizing our project is commendable. Thank you for listing our event.</p>
+							<div class="testimonials__rate">
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star-half">
+	<use xlink:href="#icon--star-half"></use>
+</svg>
+								<svg class="icon icon--star-empty">
+	<use xlink:href="#icon--star-empty"></use>
+</svg>
+							</div>
+						</div>
+	                </div>
+					<div class="splide__slide">
+						<div class="testimonials__item">
+							
+
+<img src="images/avatar1.png" srcset="images/avatar1@2x.png 2x" alt="" class="testimonials__img">
+							<p class="testimonials__name">MIMON</p>
+							<p class="testimonials__text">The way your super supportive team listens to your clients , also prioritizing our project is commendable. Thank you for listing our event.</p>
+							<div class="testimonials__rate">
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star-empty">
+	<use xlink:href="#icon--star-empty"></use>
+</svg>
+							</div>
+						</div>
+	                </div>
+					<div class="splide__slide">
+						<div class="testimonials__item">
+							
+
+<img src="images/avatar1.png" srcset="images/avatar1@2x.png 2x" alt="" class="testimonials__img">
+							<p class="testimonials__name">MIMON</p>
+							<p class="testimonials__text">The way your super supportive team listens to your clients , also prioritizing our project is commendable. Thank you for listing our event.</p>
+							<div class="testimonials__rate">
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+							</div>
+						</div>
+	                </div>
+					<div class="splide__slide">
+						<div class="testimonials__item">
+							
+
+<img src="images/avatar1.png" srcset="images/avatar1@2x.png 2x" alt="" class="testimonials__img">
+							<p class="testimonials__name">MIMON</p>
+							<p class="testimonials__text">The way your super supportive team listens to your clients , also prioritizing our project is commendable. Thank you for listing our event.</p>
+							<div class="testimonials__rate">
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star">
+	<use xlink:href="#icon--star"></use>
+</svg>
+								<svg class="icon icon--star-empty">
+	<use xlink:href="#icon--star-empty"></use>
+</svg>
+							</div>
+						</div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+
+<div class="separator ">
+	<div class="container">
+		<div class="separator__line"></div>
+		
+			<svg class="icon icon--heart">
+	<use xlink:href="#icon--heart"></use>
+</svg>
+
+		
+		<p class="separator__text">FOLLOW US ON INSTAGRAM</p>
+		
+			<p class="separator__text separator__text--small">Follow us on Instagram for the best NFT and Metaverse content <br> (news, updates, tips & tricks, and guides on how to make money with NFTs)!</p>
+		
+	</div>
+</div>
+
+
+<div class="images">
+	<div class="images__list">
+		<a href="#" title="">
+			
+
+<img src="images/ig1.jpg" srcset="images/ig1@2x.jpg 2x" alt="">
+		</a>
+		<a href="#" title="">
+			
+
+<img src="images/ig2.jpg" srcset="images/ig2@2x.jpg 2x" alt="">
+		</a>
+		<a href="#" title="">
+			
+
+<img src="images/ig3.jpg" srcset="images/ig3@2x.jpg 2x" alt="">
+		</a>
+		<a href="#" title="">
+			
+
+<img src="images/ig4.jpg" srcset="images/ig4@2x.jpg 2x" alt="">
+		</a>
+		<a href="#" title="">
+			
+
+<img src="images/ig5.jpg" srcset="images/ig5@2x.jpg 2x" alt="">
+		</a>
+		<a href="#" title="">
+			
+
+<img src="images/ig6.jpg" srcset="images/ig6@2x.jpg 2x" alt="">
+		</a>
+	</div>
+</div>
+
+
+<footer class="footer">
+	<div class="footer__top">
+		<div class="container container--relative">
+			<a href="#" class="btn btn footer__btn">
+	<span>List your project</span>
+
+	
+
+	
+</a>
+			<div class="footer__wrapper">
+				<div class="footer__box">
+					<a class="footer__logo" href="#" title="">
+						<svg class="icon icon--logo">
+	<use xlink:href="#icon--logo"></use>
+</svg>
+					</a>
+					<p class="footer__text">NFT Roster brings you all the best NFT projects, upcoming drops and news from the world of NFTs & Metaverse!</p>
+					<div class="footer__contact">
+						<a class="footer__link" href="mailto:info@nftroster.io" title="">info@nftroster.io</a>
+						<div class="footer__socials">
+							<a href="#" title="">
+								<svg class="icon icon--twitter">
+	<use xlink:href="#icon--twitter"></use>
+</svg>
+							</a>
+							<a href="#" title="">
+								<svg class="icon icon--instagram">
+	<use xlink:href="#icon--instagram"></use>
+</svg>
+							</a>
+							<a href="#" title="">
+								<svg class="icon icon--discord">
+	<use xlink:href="#icon--discord"></use>
+</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__box footer__box--cols">
+					<div class="footer__col">
+						<p class="footer__title">NFT Roster</p>
+						<ul>
+							<li>
+								<a href="#" title="">All collections</a>
+							</li>
+							<li>
+								<a href="#" title="">Upcoming projects</a>
+							</li>
+							<li>
+								<a href="#" title="">About us</a>
+							</li>
+							<li>
+								<a href="#" title="">Advertise</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__col">
+						<p class="footer__title">NFT Magazine</p>
+						<ul>
+							<li>
+								<a href="#" title="">Beginners guide</a>
+							</li>
+							<li>
+								<a href="#" title="">NFT News</a>
+							</li>
+							<li>
+								<a href="#" title="">All Articles</a>
+							</li>
+							<li>
+								<a href="#" title="">Featured NFTs</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__col">
+						<p class="footer__title">Get in touch</p>
+						<ul>
+							<li>
+								<a href="#" title="">Instagram</a>
+							</li>
+							<li>
+								<a href="#" title="">Twitter</a>
+							</li>
+							<li>
+								<a href="#" title="">Discord</a>
+							</li>
+							<li>
+								<a href="#" title="">Contact us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="container container--relative">
+			<p class="footer__copy">Copyright @ NFT Roster 2022</p>
+			<div class="footer__links">
+				<a href="#" title="">Privacy policy</a>
+				<a href="#" title="">Terms of Use</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
